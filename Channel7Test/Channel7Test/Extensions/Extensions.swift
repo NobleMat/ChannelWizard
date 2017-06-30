@@ -98,6 +98,18 @@ extension String {
     
     return boundingBox.height
   }
+  
+  func convertToTime() -> String {
+    let dateString = self.replacingOccurrences(of: "T", with: " ")
+    let finalDateString = dateString.replacingOccurrences(of: ".000Z", with: "")
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+    let date = dateFormatter.date(from: finalDateString)
+    
+    let secondDateFormatter = DateFormatter()
+    secondDateFormatter.dateFormat = "MMM d, h:mm a"
+    return secondDateFormatter.string(from: date!)
+  }
 }
 
 //MARK: - UIImageView
@@ -125,4 +137,5 @@ extension UIImageView {
       }
     }.resume()
   }
+  
 }

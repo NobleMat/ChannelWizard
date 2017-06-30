@@ -33,5 +33,4 @@ class CardView: UIView {
       layer.shadowPath = shadowPath.cgPath
     }
   }
-  
 }

@@ -15,6 +15,24 @@
 		8C7287081F05D22700B3C05D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287071F05D22700B3C05D /* StringConstants.swift */; };
 		8C72870B1F05D28100B3C05D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72870A1F05D28100B3C05D /* CardView.swift */; };
 		8C72870D1F05D2C100B3C05D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72870C1F05D2C100B3C05D /* Extensions.swift */; };
+		8C72870F1F05D73D00B3C05D /* NetworkLayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72870E1F05D73D00B3C05D /* NetworkLayerClass.swift */; };
+		8C7287121F05DC7B00B3C05D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287111F05DC7B00B3C05D /* Models.swift */; };
+		8C72871A1F0642CD00B3C05D /* SChannelListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287131F0642CD00B3C05D /* SChannelListConfigurator.swift */; };
+		8C72871B1F0642CD00B3C05D /* SChannelListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287141F0642CD00B3C05D /* SChannelListInteractor.swift */; };
+		8C72871C1F0642CD00B3C05D /* SChannelListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287151F0642CD00B3C05D /* SChannelListModels.swift */; };
+		8C72871D1F0642CD00B3C05D /* SChannelListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287161F0642CD00B3C05D /* SChannelListPresenter.swift */; };
+		8C72871E1F0642CD00B3C05D /* SChannelListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287171F0642CD00B3C05D /* SChannelListRouter.swift */; };
+		8C72871F1F0642CD00B3C05D /* SChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287181F0642CD00B3C05D /* SChannelListViewController.swift */; };
+		8C7287201F0642CD00B3C05D /* SChannelListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287191F0642CD00B3C05D /* SChannelListWorker.swift */; };
+		8C7287281F0642E800B3C05D /* SChannelDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287211F0642E800B3C05D /* SChannelDetailsConfigurator.swift */; };
+		8C7287291F0642E800B3C05D /* SChannelDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287221F0642E800B3C05D /* SChannelDetailsInteractor.swift */; };
+		8C72872A1F0642E800B3C05D /* SChannelDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287231F0642E800B3C05D /* SChannelDetailsModels.swift */; };
+		8C72872B1F0642E800B3C05D /* SChannelDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287241F0642E800B3C05D /* SChannelDetailsPresenter.swift */; };
+		8C72872C1F0642E800B3C05D /* SChannelDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287251F0642E800B3C05D /* SChannelDetailsRouter.swift */; };
+		8C72872D1F0642E800B3C05D /* SChannelDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287261F0642E800B3C05D /* SChannelDetailsViewController.swift */; };
+		8C72872E1F0642E800B3C05D /* SChannelDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287271F0642E800B3C05D /* SChannelDetailsWorker.swift */; };
+		8C7287311F06642700B3C05D /* SChenneListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287301F06642700B3C05D /* SChenneListCollectionViewCell.swift */; };
+		8C7287341F06717D00B3C05D /* SChannelDeatilsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287331F06717D00B3C05D /* SChannelDeatilsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +46,24 @@
 		8C7287071F05D22700B3C05D /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringConstants.swift; path = Extensions/StringConstants.swift; sourceTree = "<group>"; };
 		8C72870A1F05D28100B3C05D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
 		8C72870C1F05D2C100B3C05D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		8C72870E1F05D73D00B3C05D /* NetworkLayerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkLayerClass.swift; path = Extensions/NetworkLayerClass.swift; sourceTree = "<group>"; };
+		8C7287111F05DC7B00B3C05D /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		8C7287131F0642CD00B3C05D /* SChannelListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListConfigurator.swift; path = "Scenes/Channel List/SChannelListConfigurator.swift"; sourceTree = "<group>"; };
+		8C7287141F0642CD00B3C05D /* SChannelListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListInteractor.swift; path = "Scenes/Channel List/SChannelListInteractor.swift"; sourceTree = "<group>"; };
+		8C7287151F0642CD00B3C05D /* SChannelListModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListModels.swift; path = "Scenes/Channel List/SChannelListModels.swift"; sourceTree = "<group>"; };
+		8C7287161F0642CD00B3C05D /* SChannelListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListPresenter.swift; path = "Scenes/Channel List/SChannelListPresenter.swift"; sourceTree = "<group>"; };
+		8C7287171F0642CD00B3C05D /* SChannelListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListRouter.swift; path = "Scenes/Channel List/SChannelListRouter.swift"; sourceTree = "<group>"; };
+		8C7287181F0642CD00B3C05D /* SChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListViewController.swift; path = "Scenes/Channel List/SChannelListViewController.swift"; sourceTree = "<group>"; };
+		8C7287191F0642CD00B3C05D /* SChannelListWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelListWorker.swift; path = "Scenes/Channel List/SChannelListWorker.swift"; sourceTree = "<group>"; };
+		8C7287211F0642E800B3C05D /* SChannelDetailsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsConfigurator.swift; path = "Scenes/Channel Details/SChannelDetailsConfigurator.swift"; sourceTree = "<group>"; };
+		8C7287221F0642E800B3C05D /* SChannelDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsInteractor.swift; path = "Scenes/Channel Details/SChannelDetailsInteractor.swift"; sourceTree = "<group>"; };
+		8C7287231F0642E800B3C05D /* SChannelDetailsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsModels.swift; path = "Scenes/Channel Details/SChannelDetailsModels.swift"; sourceTree = "<group>"; };
+		8C7287241F0642E800B3C05D /* SChannelDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsPresenter.swift; path = "Scenes/Channel Details/SChannelDetailsPresenter.swift"; sourceTree = "<group>"; };
+		8C7287251F0642E800B3C05D /* SChannelDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsRouter.swift; path = "Scenes/Channel Details/SChannelDetailsRouter.swift"; sourceTree = "<group>"; };
+		8C7287261F0642E800B3C05D /* SChannelDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsViewController.swift; path = "Scenes/Channel Details/SChannelDetailsViewController.swift"; sourceTree = "<group>"; };
+		8C7287271F0642E800B3C05D /* SChannelDetailsWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDetailsWorker.swift; path = "Scenes/Channel Details/SChannelDetailsWorker.swift"; sourceTree = "<group>"; };
+		8C7287301F06642700B3C05D /* SChenneListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChenneListCollectionViewCell.swift; path = "Scenes/Channel List/Cells/SChenneListCollectionViewCell.swift"; sourceTree = "<group>"; };
+		8C7287331F06717D00B3C05D /* SChannelDeatilsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SChannelDeatilsCollectionViewCell.swift; path = "Scenes/Channel Details/Cells/SChannelDeatilsCollectionViewCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,7 @@
 		8C7286F01F05D07C00B3C05D /* Channel7Test */ = {
 			isa = PBXGroup;
 			children = (
+				8C7287101F05DC6B00B3C05D /* Models */,
 				8C7287091F05D27700B3C05D /* Views */,
 				8C7287041F05D1FF00B3C05D /* Scenes */,
 				8C7287031F05D1F300B3C05D /* Extensions */,
@@ -78,6 +115,7 @@
 			children = (
 				8C7287071F05D22700B3C05D /* StringConstants.swift */,
 				8C72870C1F05D2C100B3C05D /* Extensions.swift */,
+				8C72870E1F05D73D00B3C05D /* NetworkLayerClass.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -94,6 +132,14 @@
 		8C7287051F05D20400B3C05D /* Channel List */ = {
 			isa = PBXGroup;
 			children = (
+				8C72872F1F06455D00B3C05D /* Cells */,
+				8C7287131F0642CD00B3C05D /* SChannelListConfigurator.swift */,
+				8C7287141F0642CD00B3C05D /* SChannelListInteractor.swift */,
+				8C7287151F0642CD00B3C05D /* SChannelListModels.swift */,
+				8C7287161F0642CD00B3C05D /* SChannelListPresenter.swift */,
+				8C7287171F0642CD00B3C05D /* SChannelListRouter.swift */,
+				8C7287181F0642CD00B3C05D /* SChannelListViewController.swift */,
+				8C7287191F0642CD00B3C05D /* SChannelListWorker.swift */,
 			);
 			name = "Channel List";
 			sourceTree = "<group>";
@@ -101,6 +147,14 @@
 		8C7287061F05D20A00B3C05D /* Channel Details */ = {
 			isa = PBXGroup;
 			children = (
+				8C7287321F06715E00B3C05D /* Cells */,
+				8C7287211F0642E800B3C05D /* SChannelDetailsConfigurator.swift */,
+				8C7287221F0642E800B3C05D /* SChannelDetailsInteractor.swift */,
+				8C7287231F0642E800B3C05D /* SChannelDetailsModels.swift */,
+				8C7287241F0642E800B3C05D /* SChannelDetailsPresenter.swift */,
+				8C7287251F0642E800B3C05D /* SChannelDetailsRouter.swift */,
+				8C7287261F0642E800B3C05D /* SChannelDetailsViewController.swift */,
+				8C7287271F0642E800B3C05D /* SChannelDetailsWorker.swift */,
 			);
 			name = "Channel Details";
 			sourceTree = "<group>";
@@ -111,6 +165,30 @@
 				8C72870A1F05D28100B3C05D /* CardView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		8C7287101F05DC6B00B3C05D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C7287111F05DC7B00B3C05D /* Models.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8C72872F1F06455D00B3C05D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C7287301F06642700B3C05D /* SChenneListCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8C7287321F06715E00B3C05D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C7287331F06717D00B3C05D /* SChannelDeatilsCollectionViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +265,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C72870D1F05D2C100B3C05D /* Extensions.swift in Sources */,
+				8C72871F1F0642CD00B3C05D /* SChannelListViewController.swift in Sources */,
+				8C72872C1F0642E800B3C05D /* SChannelDetailsRouter.swift in Sources */,
+				8C7287281F0642E800B3C05D /* SChannelDetailsConfigurator.swift in Sources */,
+				8C72872E1F0642E800B3C05D /* SChannelDetailsWorker.swift in Sources */,
+				8C72872A1F0642E800B3C05D /* SChannelDetailsModels.swift in Sources */,
 				8C7286F41F05D07C00B3C05D /* ViewController.swift in Sources */,
+				8C72872B1F0642E800B3C05D /* SChannelDetailsPresenter.swift in Sources */,
+				8C7287201F0642CD00B3C05D /* SChannelListWorker.swift in Sources */,
 				8C7286F21F05D07C00B3C05D /* AppDelegate.swift in Sources */,
 				8C72870B1F05D28100B3C05D /* CardView.swift in Sources */,
+				8C7287311F06642700B3C05D /* SChenneListCollectionViewCell.swift in Sources */,
+				8C7287291F0642E800B3C05D /* SChannelDetailsInteractor.swift in Sources */,
+				8C72872D1F0642E800B3C05D /* SChannelDetailsViewController.swift in Sources */,
+				8C72871A1F0642CD00B3C05D /* SChannelListConfigurator.swift in Sources */,
+				8C7287341F06717D00B3C05D /* SChannelDeatilsCollectionViewCell.swift in Sources */,
+				8C72871C1F0642CD00B3C05D /* SChannelListModels.swift in Sources */,
 				8C7287081F05D22700B3C05D /* StringConstants.swift in Sources */,
+				8C72871D1F0642CD00B3C05D /* SChannelListPresenter.swift in Sources */,
+				8C72871E1F0642CD00B3C05D /* SChannelListRouter.swift in Sources */,
+				8C72870F1F05D73D00B3C05D /* NetworkLayerClass.swift in Sources */,
+				8C72871B1F0642CD00B3C05D /* SChannelListInteractor.swift in Sources */,
+				8C7287121F05DC7B00B3C05D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.Channel7Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -334,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.Channel7Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
