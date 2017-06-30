@@ -12,6 +12,9 @@
 		8C7286F71F05D07C00B3C05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7286F51F05D07C00B3C05D /* Main.storyboard */; };
 		8C7286F91F05D07C00B3C05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7286F81F05D07C00B3C05D /* Assets.xcassets */; };
 		8C7286FC1F05D07C00B3C05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7286FA1F05D07C00B3C05D /* LaunchScreen.storyboard */; };
+		8C7287081F05D22700B3C05D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7287071F05D22700B3C05D /* StringConstants.swift */; };
+		8C72870B1F05D28100B3C05D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72870A1F05D28100B3C05D /* CardView.swift */; };
+		8C72870D1F05D2C100B3C05D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C72870C1F05D2C100B3C05D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8C7286F81F05D07C00B3C05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C7286FB1F05D07C00B3C05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C7286FD1F05D07C00B3C05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7287071F05D22700B3C05D /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringConstants.swift; path = Extensions/StringConstants.swift; sourceTree = "<group>"; };
+		8C72870A1F05D28100B3C05D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
+		8C72870C1F05D2C100B3C05D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		8C7286F01F05D07C00B3C05D /* Channel7Test */ = {
 			isa = PBXGroup;
 			children = (
+				8C7287091F05D27700B3C05D /* Views */,
+				8C7287041F05D1FF00B3C05D /* Scenes */,
+				8C7287031F05D1F300B3C05D /* Extensions */,
 				8C7286F11F05D07C00B3C05D /* AppDelegate.swift */,
 				8C7286F31F05D07C00B3C05D /* ViewController.swift */,
 				8C7286F51F05D07C00B3C05D /* Main.storyboard */,
@@ -62,6 +71,46 @@
 				8C7286FD1F05D07C00B3C05D /* Info.plist */,
 			);
 			path = Channel7Test;
+			sourceTree = "<group>";
+		};
+		8C7287031F05D1F300B3C05D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C7287071F05D22700B3C05D /* StringConstants.swift */,
+				8C72870C1F05D2C100B3C05D /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8C7287041F05D1FF00B3C05D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8C7287061F05D20A00B3C05D /* Channel Details */,
+				8C7287051F05D20400B3C05D /* Channel List */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		8C7287051F05D20400B3C05D /* Channel List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Channel List";
+			sourceTree = "<group>";
+		};
+		8C7287061F05D20A00B3C05D /* Channel Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Channel Details";
+			sourceTree = "<group>";
+		};
+		8C7287091F05D27700B3C05D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C72870A1F05D28100B3C05D /* CardView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C72870D1F05D2C100B3C05D /* Extensions.swift in Sources */,
 				8C7286F41F05D07C00B3C05D /* ViewController.swift in Sources */,
 				8C7286F21F05D07C00B3C05D /* AppDelegate.swift in Sources */,
+				8C72870B1F05D28100B3C05D /* CardView.swift in Sources */,
+				8C7287081F05D22700B3C05D /* StringConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
